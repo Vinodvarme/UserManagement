@@ -39,8 +39,6 @@ public class UserServiceImpl implements UserInterface{
     public UserData getUserById(int userId) {
         return userRepo.findById(userId).orElseThrow();
     }
-    public String getName(){
-        return "Mr. Vinod";
-    }
+
 
 }
